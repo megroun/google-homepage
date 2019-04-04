@@ -1,0 +1,122 @@
+body{
+    overflow-x: hidden;
+}
+#main{
+    /* border: 1px solid red; */
+    width: 1345px;
+    height: 600px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    overflow: hidden;
+    background-color: transparent;
+}
+  
+li {
+    /* float: right; */
+    display: inline-block;
+    position: relative;
+    left: 1140px;
+}
+  
+li a {
+    display: block;
+    color: #3b3a3aef;
+    text-align: center;
+    padding: 17px 10px;
+    text-decoration: none;
+    font-family: small arial,sans-serif;
+    font-size: 14px;
+}
+  
+li a:hover {
+    text-decoration: underline;
+}
+.signup{
+    /* border: solid 1px red; */
+    border-radius: 25px;
+    width: 14px;
+    height: 0px;
+    position: absolute;
+    top: -22px;
+    background: #cff10ee5;
+
+}
+.content{
+    /* border: solid 1px blue; */
+    height: 530px;
+}
+.mainLogo{
+    /* border: solid 1px black; */
+    position: absolute;
+    width: 334px;
+    height: 103px;
+    left: 500px;
+    top: 165px;
+}
+.logo{
+    position: absolute;
+    width: 330px;
+    height: 102px;
+}
+.search{
+    /* border: 1px solid black; */
+    width: 560px;
+    height: 36px;
+    position: relative;
+    top: 250px;
+    left: 380px;
+}
+.searchBar{
+    width: 560px;
+    height: 33px;
+    /* position: relative; */
+    top: 295px;
+    left: 430px;
+    border-radius: 20px;
+    border: none;
+    background-color: #eeebebef;
+    text-indent: 15px;
+    outline: none;
+    display: inline-block;
+}
+.mic{
+    /* border: solid 1px red; */
+    width: 23px;
+    height: 25px;
+    bottom: 31px;
+    left: 513px;
+    position: relative;
+    display: inline-block;
+}
+.microphone{
+    width: 15px;
+    height: 21px;
+    top: 2px;
+    left: 1px;
+    position: relative;
+}
+.buttons{
+    position: relative;
+    top: 295px;
+    left: 530px;
+    width: 250px;
+    height: auto;
+}
+.btn{
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    /* position: relative; */
+}
+.btn:hover{
+    color: #3b3a3aef;
+}
+#luckybtn{
+    position: relative;
+    left: 25px;
+}
